@@ -1,12 +1,12 @@
+import React from "react";
+import Profile from "./pages/Profile";
 
-
-function App() {
-
+const App: React.FC = () => {
   return (
     <>
-     
+      <Profile />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
